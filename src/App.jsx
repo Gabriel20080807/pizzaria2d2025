@@ -2,13 +2,15 @@ import { useState } from "react"
 
 function App(){
 
-  const [nome, setNome] = useState ('Cava Uma Falta, Que É Gol É Gol ')
+  const [nome, setNome] = useState ('Glória a Jesus Aleluia ')
 
-  return(
-    <div>
-      <h3>Pizzaria 2D</h3>
-    
-    <input
+  const Formulario = () => {
+
+    return (
+      <>
+        <h3>Formulário</h3>
+
+        <input
       className=""
       onChange={(e)=>{setNome(e.target.value)}}
       type="text"/>
@@ -19,6 +21,20 @@ function App(){
       >
         Click Aqui
        </button>
+      </>
+    )
+  }
+
+  return(
+    <div>
+      <h3>Pizzaria 2D</h3>
+
+      <Formulario/>
+      <Formulario/>
+      <Formulario/>
+            
+    
+    
 
 
     </div>
