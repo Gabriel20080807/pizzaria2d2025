@@ -19,7 +19,7 @@ function App(){
       className=""
       onClick={()=>{alert(nome)}}
       >
-        Click Aqui
+        PERIGO
        </button>
       </>
     )
