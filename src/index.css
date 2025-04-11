@@ -28,7 +28,10 @@ body {
   place-items: start;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT51qZKoOa_aG5zxs73iJmQRa-0kAOllxlGEg&s);
+  background-image: url(https://i.pinimg.com/736x/07/b0/64/07b06463bd001331a982d91c53b876c5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 h1 {
