@@ -28,7 +28,7 @@ body {
   place-items: start;
   min-width: 320px;
   min-height: 100vh;
-  background-color: aqua;
+  background-color: rgb(165, 212, 212);
 }
 
 h1 {
